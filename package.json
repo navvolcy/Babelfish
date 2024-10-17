@@ -10,10 +10,8 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "font-awesome": "^4.7.0",
     "tailwindcss": "^3.4.14",
     "watch": "^1.0.2"
-  },
-  "dependencies": {
-    "font-awesome": "^4.7.0"
   }
 }
