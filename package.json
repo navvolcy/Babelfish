@@ -1,0 +1,16 @@
+{
+  "name": "babelfish",
+  "version": "1.0.0",
+  "main": "babel.js",
+  "scripts": {
+    "build-css": "tailwind build -i src/styles.css  -o public/styles.css --watch",
+    "watch": "watch \"npm run build-css\""
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.14",
+    "watch": "^1.0.2"
+  }
+}
