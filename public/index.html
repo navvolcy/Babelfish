@@ -9,20 +9,44 @@
 </head>
 <body class="h-screen bg-gray-700">
     <div class="flex-col justify-center items-center">
-        <div class="text-center text-4xl  italic">
+        <div class="text-center text-4xl  italic pb-4 underline underline-offset-2">
             Translator 
         </div>
+        <div class="text-center text-3xl italic">
+            English
+        </div>
         <div class="border-4 border-blue-400 bg-violet-600 text-center h-64 m-8 rounded text-2xl">
-            English box
+           <p id="engTxt">
+
+           </p>
+        </div>
+        <div class="text-center text-3xl italic">
+            Spanish
         </div>
         <div class="border-4 border-blue-400  bg-violet-600 text-center h-64 m-8 rounded text-2xl"> 
-            Spanish box
+            <p id="spanTxt">
+
+            </p>
         </div>
         <div class="text-center m-8 " > 
+            <button id="en" class="border-2 border-black bg-sky-500 p-8 rounded-full  hover:bg-violet-600 
+            active:bg-violet-700 focus:outline-none focus:ring
+             focus:ring-violet-300 ">
+                <p class=" italic text-2xl">
+                    EN
+                </p>
+            </button>
             <button class="border border-black m-8 rounded-full p-14 bg-blue-400 hover:bg-violet-600 
              active:bg-violet-700 focus:outline-none focus:ring
               focus:ring-violet-300">
                 <i class="fa-solid fa-microphone text-3xl"></i>
+            </button>
+            <button id="es"class="border-2 border-black bg-sky-500 p-8 rounded-full  hover:bg-violet-600 
+            active:bg-violet-700 focus:outline-none focus:ring
+             focus:ring-violet-300">
+                <p class="italic text-2xl">
+                    ES
+                </p>
             </button>
         </div>
     </div>
